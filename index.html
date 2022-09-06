@@ -2,9 +2,96 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <nav class="navigationbar">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About me</a></li>
+        <li><a href="#Skills">Skills and Works</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="Home">
+      <h1 class="heading">HI, I AM</h1>
+      <h1 class="heading">LOVELY TORNO</h1>
+      <br><br>
+      <p>AND WELCOME TO MY PORTFOLIO</p>
+      <br><br><br>
+    
+
+      <nav class="media">
+        <ul>
+          <li><a href="https://github.com/lvlytorno">
+            <img src="images/github.png" alt="github logo" >
+          </a></li>
+          <li><a href="https://www.facebook.com/daybadidayy">
+            <img src="images/facebook.png" alt="github.png">
+          </a></li>
+          <li><a href="https://www.youtube.com/channel/UCa7GIuJYCdyVWcSkKw8HmeQ">
+            <img src="images/youtube.png" alt="">
+          </a></li>
+        </ul>
+      </nav>
+      </section>  
+    
+    <section id="About">
+      <h1 class="heading">ABOUT ME</h1>
+      <div class="about">
+        <img src="images/PFP.jpg" alt="My Picture">
+        <div class="name">
+        <h2>I'm Lovely Torno</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur, 
+          adipisicing elit. Vero dolores at nesciunt autem 
+          voluptate fuga dicta voluptatibus, beatae atque 
+          suscipit asperiores nostrum, nulla aperiam. Officia 
+          esse non iste, ipsam, facilis dolore veritatis 
+          deserunt adipisci expedita cupiditate ducimus 
+          sapiente et, facere sed. Non dicta minima nesciunt 
+          autem qui nobis perspiciatis, quas praesentium officiis 
+          molestiae, dolorem possimus neque laboriosam iste 
+          provident at. Quibusdam assumenda est iusto voluptatem 
+          repellat numquam excepturi iste atque aperiam molestias 
+          quasi, earum, ea reiciendis possimus ab quia quae illo 
+          distinctio. </p>
+          </div>
+      </div>
+    </section>
+
+    <section id="Skills">
+      <h1 class="heading">SKILLS and WORKS</h1>
+      <div class="columns">
+        <div class="box">
+          <h2>FRONT-END</h2>
+          <p></p>
+        </div>
+        <div class="box">
+          <h2>BACK-END</em></h2>
+          <p></p>
+        </div>
+      </div>
+        <div class="boxes">
+          <h2>WORKS</em></h2>
+          <p></p>
+        </div>
+    </section>
+
+    <section id="Contact">
+      <h1 class="heading">CONTACT</h1>
+      <form action="https://formsubmit.co/el/derata" method="POST" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+        <input type="email" name="email" class="input" placeholder="Enter Your Email Address" required>
+        <textarea name="message" id="message" cols="70" rows="20" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </section>
+
+
+  </body>
 </html>
